@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Artist and Song</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="get_name1.css">
+
+
+</head>
+<body>
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col col-lg-8" align="left">
+                <h4>Here is the iframe</h4>
+
+                <iframe id="myIframe" src="" frameborder="1"></iframe>
+
+                <h4 id="iframe_test">Get selected stuff here</h4>
+                <div id="stuff"></div>
+
+
+            </div>
+
+            <div class="col col-lg-4">
+
+                <h5>Click the letters that make up the artist name and song</h5>
+
+                <button type="button" class="btn btn-secondary btn-sm" id="get_stuff">Get Iframe Stuff</button>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 mx-auto">
+                            <h6>Input</h6>
+                        </div>
+                        <div class="col-sm-9 border mx-auto">
+                            <p id="full_name">#######</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <button type="button" class="btn btn-secondary btn-sm" id="get_select_artist" value="artist">Make Selectable</button>
+
+                <h6>Selectable</h6>
+                <div id="container_artist">
+                    <h6 id="artist_name"></h6>
+                </div>
+
+                <button type="button" class="btn btn-secondary btn-sm" id="artist_button" value="artist">Get Selected</button>
+
+                <h6>Selected Artist</h6>
+                <p id="click_artist"></p>
+
+                <h6>Remaining Text</h6>
+                <p id="search_within_artist"></p>
+
+                <h6>Input</h6>
+                <h6 id="song_fullname"></h6>
+
+                <button type="button" class="btn btn-secondary btn-sm" id="get_select_song" value="song">Make Selectable</button>
+
+                <h6>Selectable</h6>
+                <div id="container_song">
+                    <h6 id="song_name"></h6>
+                </div>
+
+                <button type="button" class="btn btn-secondary btn-sm" id="song_button" value="song">Get Selected</button>
+
+                <h6>Selected Song</h6>
+                <h6 id="click_song"></h6>
+
+                <h6>Remaining Text</h6>
+                <h6 id="search_within_song"></h6>
+
+
+                <!--<h6>Test Output</h6>-->
+
+                <!--<h6>Input</h6>-->
+
+                <!--<h6 id="test_fullname">"Come Fly With Me," by Frank Sinatra</h6>-->
+
+                <button type="button" class="btn btn-secondary btn-sm" id="test_button">Test</button>
+
+                <!--<h6>Output</h6>-->
+                <!--<h6>Artist:</h6>-->
+                <!--<p id="artist_output"></p>-->
+                <!--<h6>Song:</h6>-->
+                <!--<p id="song_output"></p>-->
+
+            </div>
+        </div>
+        <div class="row">
+            <div id="song_list" class="col col-lg-4">
+
+                    <h6>Songs from Webpage</h6>
+
+            </div>
+
+            <div  class="col col-lg-4">
+
+
+
+            </div>
+            <div class="col col-lg-4"></div>
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
+<script src="https://thibaultjanbeyer.github.io/DragSelect/ds.min.js"></script>
+<script src="getname3.js"></script>
+
+</html>
